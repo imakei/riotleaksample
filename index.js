@@ -1,5 +1,7 @@
 var riot = require("riot")
-var sample = require("./sample")
+var root = require("./root")
+var child = require("./child")
+
 while(true) {
-  console.log(riot.render('sample'));
+  console.log(riot.render('root'));
 }

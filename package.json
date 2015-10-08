@@ -1,9 +1,9 @@
 {
-  "name": "riotjs-render",
-  "version": "1.0.0",
+  "name": "riotleaksample",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
-    "build": "riot sample.tag",
+    "build": "riot root.tag; riot child.tag",
     "start": "node index.js"
   },
   "dependencies": {
